@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Js Project</title>
+
+<style>
+    #app{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+</style>
+</head>
+
+<body>
+<div id="app">
+    <h1>My Todo List</h1>
+
+<ol class="list-container">
+    <!-- <li class="todo-item">Do that
+    <button >Delete</button>
+    <button>Mark as complete</button>
+    </li>   -->
+
+    <li class="todo-item">Do this 
+    <button class="delete">Delete</button>
+    <button class="mark">Mark as complete</button>
+    </li>
+</ol>
+
+<form class="add-todo">
+    <label>
+        Add new task here
+    <input name="todo-input" type="text"/>
+    <button id="add">Add</button>
+    </label>
+</form>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
